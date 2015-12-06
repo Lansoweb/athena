@@ -8,7 +8,7 @@ This is a Service Discovery server made with PHP, using Zend Expressive micro-fr
 
 It's goal is to provide service discovery via REST API to distributed systems, like in a micro service architeture.
 
-The client library is [Athena-Client](https://github.com/mt-olympus/athena-client) and there will be framework-specific implmentations in the future.
+You can use [Hermes](https://github.com/mt-olympus/hermes) as client or use REST calls directly.
 
 ## Workflow Example
 
