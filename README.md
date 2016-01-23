@@ -18,7 +18,7 @@ You can use [Hermes](https://github.com/mt-olympus/hermes) as client or use REST
 * Service B connects to service A
 * Service C registers itself for the same service as A (service-test)
 * When service B asks Athena, it returns both services A AND C
-* Service B now can choose between A and C to connect to (Can use [Kharon](https://github.com/mt-olympus/kharon) as load balance)
+* Service B now can choose between A and C to connect to (Can use [Metis](https://github.com/mt-olympus/metis) as load balance)
 
 * Service A and C can unregister itself from Athena server
 * Athena server can unregister a service if it stays too long without a heartbeat
